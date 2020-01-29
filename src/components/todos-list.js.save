@@ -1,0 +1,16 @@
+import React from 'react';
+import ToDosListHeader from './todos-list-header';
+
+export default class ToDosList extends React.Component {
+	render() {
+            return (
+		<tabl		<thead>
+					<tr>
+						<th>Tareas</th>
+						<th>Acciones</th>
+					</tr>
+				</thead>
+		</table>
+	    );
+	}
+}
